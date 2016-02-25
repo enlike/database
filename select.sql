@@ -1,7 +1,7 @@
 /*выбрать людей, которые не болеют, и сортировать их по ФИО */
 SELECT priem_doctor_id, has_ill, surname
 FROM reception,patients
- where has_ill='no'
+ where has_ill='0'
  ORDER BY surname, first_name, last_name
 ;
 

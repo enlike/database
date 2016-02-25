@@ -14,7 +14,7 @@ ORDER BY (surname,first_name,last_name);
 CREATE VIEW has_operation AS
 SELECT *
 FROM reception 
-where  has_ill = 'yes';
+where  has_ill = '1';
 
 /* выбрать ФИО врача, который принимал 31.12.15*/
 CREATE VIEW new_year_receipt
